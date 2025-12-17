@@ -15,13 +15,14 @@ const config = {
   baseUrl: '/ai-native-book/',
 
   // GitHub pages deployment config.
-  organizationName: 'shariq001', // Usually your GitHub org/user name.
-  projectName: 'ai-native-book', // Usually your repo name.
+  organizationName: 'shariq001', 
+  projectName: 'ai-native-book', 
 
   // Recommended for GitHub Pages to prevent 404s
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
+  // Treat broken links as errors to ensure quality
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -37,7 +38,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Remove this to remove the "edit this page" links.
         },
         blog: false, 
         theme: {
@@ -56,6 +56,8 @@ const config = {
         logo: {
           alt: 'Robotics Logo',
           src: 'img/logo.png',
+          height: 50, 
+          style: { height: '50px', width: 'auto' },
         },
         items: [
           {
@@ -65,7 +67,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/shariq001/ai-native-book',
             label: 'GitHub',
             position: 'right',
           },
@@ -79,19 +81,23 @@ const config = {
             items: [
               {
                 label: 'ROS 2: The Robotic Nervous System',
-                to: '/docs/ros2-nervous-system/digital-nervous-system',
+                // FIXED: Removed "01-" because the file is likely named "The-Digital-Nervous-System.md"
+                to: '/docs/Module 1 - ROS 2 Nervous System/The-Digital-Nervous-System',
               },
               {
                 label: 'Digital Twin (Gazebo & Unity)',
-                to: '/docs/digital-twin-simulation/the-mirror-world',
+                // FIXED: Removed "01-"
+                to: '/docs/Module 2 - Digital Twin Simulation/The-Mirror-World',
               },
               {
                 label: 'AI-Robot Brain (NVIDIA Isaac™)',
-                to: '/docs/ai-robot-brain/infinite-training-data',
+                // FIXED: Removed "01-"
+                to: '/docs/Module 3 - AI Robot Brain/Infinite-Training-Data',
               },
               {
                 label: 'VLA & Capstone',
-                to: '/docs/vla-capstone/the-embodied-llm',
+                // FIXED: Removed "01-"
+                to: '/docs/Module 4 - VLA Capstone/The-Embodied-LLM',
               },
             ],
           },
@@ -117,7 +123,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/shariq001/ai-native-book',
               },
             ],
           },

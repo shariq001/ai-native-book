@@ -42,7 +42,12 @@ export default {
       "title": "AI-Native Robotics",
       "logo": {
         "alt": "Robotics Logo",
-        "src": "img/logo.png"
+        "src": "img/logo.png",
+        "height": 50,
+        "style": {
+          "height": "50px",
+          "width": "auto"
+        }
       },
       "items": [
         {
@@ -52,7 +57,7 @@ export default {
           "label": "Docs"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/shariq001/ai-native-book",
           "label": "GitHub",
           "position": "right"
         }
@@ -67,19 +72,19 @@ export default {
           "items": [
             {
               "label": "ROS 2: The Robotic Nervous System",
-              "to": "/docs/ros2-nervous-system/digital-nervous-system"
+              "to": "/docs/Module 1 - ROS 2 Nervous System/The-Digital-Nervous-System"
             },
             {
               "label": "Digital Twin (Gazebo & Unity)",
-              "to": "/docs/digital-twin-simulation/the-mirror-world"
+              "to": "/docs/Module 2 - Digital Twin Simulation/The-Mirror-World"
             },
             {
               "label": "AI-Robot Brain (NVIDIA Isaac™)",
-              "to": "/docs/ai-robot-brain/infinite-training-data"
+              "to": "/docs/Module 3 - AI Robot Brain/Infinite-Training-Data"
             },
             {
               "label": "VLA & Capstone",
-              "to": "/docs/vla-capstone/the-embodied-llm"
+              "to": "/docs/Module 4 - VLA Capstone/The-Embodied-LLM"
             }
           ]
         },
@@ -105,7 +110,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/shariq001/ai-native-book"
             }
           ]
         }
