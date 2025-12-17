@@ -64,7 +64,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Book',
           },
           {
             href: 'https://github.com/shariq001/ai-native-book',
@@ -80,55 +80,57 @@ const config = {
             title: 'Modules',
             items: [
               {
-                label: 'ROS 2: The Robotic Nervous System',
+                label: '1. The Nervous System',
                 // FIXED: Removed "01-" because the file is likely named "The-Digital-Nervous-System.md"
                 to: '/docs/Module 1 - ROS 2 Nervous System/The-Digital-Nervous-System',
               },
               {
-                label: 'Digital Twin (Gazebo & Unity)',
+                label: '2. The Digital Twin',
                 // FIXED: Removed "01-"
                 to: '/docs/Module 2 - Digital Twin Simulation/The-Mirror-World',
               },
               {
-                label: 'AI-Robot Brain (NVIDIA Isaac™)',
+                label: '3. The AI Brain',
                 // FIXED: Removed "01-"
                 to: '/docs/Module 3 - AI Robot Brain/Infinite-Training-Data',
               },
               {
-                label: 'VLA & Capstone',
+                label: '4. Embodied Intelligence',
                 // FIXED: Removed "01-"
                 to: '/docs/Module 4 - VLA Capstone/The-Embodied-LLM',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'My Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/muhammad---shariq',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/mu_shariq01',
               },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/shariq001/',
+              },
+              
+              
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/shariq001/ai-native-book',
+                label: 'Portfolio',
+                href: 'https://my-personal-portfolio-eight-delta.vercel.app/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} AI-Native Robotics Textbook, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} AI-Native Robotics Textbook. All Rights Reserved Muhammad Shariq.`,
       },
       prism: {
         theme: prismThemes.github,
