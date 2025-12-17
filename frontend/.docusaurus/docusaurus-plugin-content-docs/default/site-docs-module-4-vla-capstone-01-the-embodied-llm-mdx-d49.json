@@ -1,0 +1,24 @@
+{
+  "id": "Module 4 - VLA Capstone/The-Embodied-LLM",
+  "title": "The Embodied LLM: Moving from Chatbots to Robot Controllers",
+  "description": "ChatGPT Can Write a Poem, But Can It Make Coffee?",
+  "source": "@site/docs/Module 4 - VLA Capstone/01-The-Embodied-LLM.mdx",
+  "sourceDirName": "Module 4 - VLA Capstone",
+  "slug": "/Module 4 - VLA Capstone/The-Embodied-LLM",
+  "permalink": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Embodied-LLM",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.4 Bipedal Control Dynamics",
+    "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/Walking-Not-Rolling"
+  },
+  "next": {
+    "title": "4.2 Speech Processing Pipeline",
+    "permalink": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Robot-Ear"
+  }
+}

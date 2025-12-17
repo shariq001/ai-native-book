@@ -1,0 +1,71 @@
+.chapterContainer {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.chapterTitle {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-primary);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  padding-bottom: 0.5rem;
+}
+
+.learningObjectives {
+  background-color: var(--ifm-color-emphasis-100);
+  padding: 1.5rem;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.learningObjectives h2 {
+  margin-top: 0;
+  color: var(--ifm-color-primary);
+  font-size: 1.3rem;
+}
+
+.learningObjectives ul {
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+.learningObjectives li {
+  margin-bottom: 0.5rem;
+}
+
+.content {
+  line-height: 1.6;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: var(--ifm-color-primary-dark);
+}
+
+.content h3 {
+  font-size: 1.3rem;
+  margin-top: 1.8rem;
+}
+
+.content p {
+  margin-bottom: 1rem;
+}
+
+.content img, 
+.content svg {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 4px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.content .diagram-container {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: var(--ifm-color-emphasis-100);
+  border-radius: 4px;
+}

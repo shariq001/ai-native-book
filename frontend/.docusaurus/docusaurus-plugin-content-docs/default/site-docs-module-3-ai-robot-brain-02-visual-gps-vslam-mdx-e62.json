@@ -1,0 +1,24 @@
+{
+  "id": "Module 3 - AI Robot Brain/Visual-GPS-VSLAM",
+  "title": "Visual GPS (VSLAM): Where Am I?",
+  "description": "The Problem: GPS Doesn't Work Indoors",
+  "source": "@site/docs/Module 3 - AI Robot Brain/02-Visual-GPS-VSLAM.mdx",
+  "sourceDirName": "Module 3 - AI Robot Brain",
+  "slug": "/Module 3 - AI Robot Brain/Visual-GPS-VSLAM",
+  "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/Visual-GPS-VSLAM",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.1 Synthetic Data Generation",
+    "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/Infinite-Training-Data"
+  },
+  "next": {
+    "title": "3.3 Path Planning (Nav2)",
+    "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/The-Navigator-Nav2"
+  }
+}

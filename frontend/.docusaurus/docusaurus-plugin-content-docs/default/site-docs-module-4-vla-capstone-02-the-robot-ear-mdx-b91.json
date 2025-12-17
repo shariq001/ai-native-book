@@ -1,0 +1,24 @@
+{
+  "id": "Module 4 - VLA Capstone/The-Robot-Ear",
+  "title": "The Robot Ear (Whisper): Voice-to-Text Integration",
+  "description": "The Pipeline: From Sound to Action",
+  "source": "@site/docs/Module 4 - VLA Capstone/02-The-Robot-Ear.mdx",
+  "sourceDirName": "Module 4 - VLA Capstone",
+  "slug": "/Module 4 - VLA Capstone/The-Robot-Ear",
+  "permalink": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Robot-Ear",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.1 VLA Model Architecture",
+    "permalink": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Embodied-LLM"
+  },
+  "next": {
+    "title": "4.3 LLM-Based Planning",
+    "permalink": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Cognitive-Planner"
+  }
+}

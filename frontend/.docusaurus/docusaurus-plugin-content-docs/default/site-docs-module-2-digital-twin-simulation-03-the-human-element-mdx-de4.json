@@ -1,0 +1,24 @@
+{
+  "id": "Module 2 - Digital Twin Simulation/The-Human-Element",
+  "title": "The Human Element (Unity): High-Fidelity Visuals for Human-Robot Interaction",
+  "description": "Why Gazebo Isn't Enough for Visual AI",
+  "source": "@site/docs/Module 2 - Digital Twin Simulation/03-The-Human-Element.mdx",
+  "sourceDirName": "Module 2 - Digital Twin Simulation",
+  "slug": "/Module 2 - Digital Twin Simulation/The-Human-Element",
+  "permalink": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/The-Human-Element",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.2 Physics Engines & Collision",
+    "permalink": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/Laws-of-the-Land"
+  },
+  "next": {
+    "title": "2.4 Sensor Simulation",
+    "permalink": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/Synthetic-Senses"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "Module 2 - Digital Twin Simulation/Synthetic-Senses",
+  "title": "Synthetic Senses: Simulating Robot Sensors",
+  "description": "The Robot Doesn't Know It's in a Simulation",
+  "source": "@site/docs/Module 2 - Digital Twin Simulation/04-Synthetic-Senses.mdx",
+  "sourceDirName": "Module 2 - Digital Twin Simulation",
+  "slug": "/Module 2 - Digital Twin Simulation/Synthetic-Senses",
+  "permalink": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/Synthetic-Senses",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.3 Rendering & Visuals",
+    "permalink": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/The-Human-Element"
+  },
+  "next": {
+    "title": "3.1 Synthetic Data Generation",
+    "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/Infinite-Training-Data"
+  }
+}

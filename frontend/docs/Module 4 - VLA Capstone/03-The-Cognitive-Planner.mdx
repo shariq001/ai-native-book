@@ -1,0 +1,89 @@
+# The Cognitive Planner: Using LLMs for Action Sequences
+
+## The Challenge: From Command to Action
+
+A robot may hear "Clean the room" via the voice-to-text system, but it doesn't understand what that means. The robot needs to break this high-level command into a sequence of specific, executable actions it can perform.
+
+This is where the cognitive planner comes in—it translates abstract commands into specific steps. The cognitive planner serves as the reasoning layer in the VLA system, bridging the gap between human language and robot action.
+
+The complexity of this task lies in the fact that high-level commands like "clean the room" implicitly contain many sub-steps. The robot must understand spatial relationships, object affordances (what can be done with different objects), and causal relationships (what happens when certain actions are performed).
+
+## The Prompt: Breaking Down Commands
+
+The cognitive planner uses a large language model (LLM) to decompose high-level commands into action sequences. Here's how it works:
+
+**Example Input:** "Clean the room."
+
+**LLM Output (Chain of Thought):**
+```
+["Go to Table", "Find Cup", "Pick up Cup", "Go to Trash", "Drop Cup"]
+```
+
+The LLM uses its training to understand the steps needed to complete the cleaning task. The "Chain of Thought" reasoning helps it generate a logical sequence of actions.
+
+More complex prompts might include contextual information like:
+- The current state of the environment ("There is a red cup on the table")
+- Robot capabilities ("The robot has a gripper and can navigate")
+- Constraints ("Avoid the sleeping cat")
+
+By including such information in the prompt, the LLM can generate more specific and appropriate action sequences.
+
+## How the Process Works
+
+1. The voice command is converted to text
+2. The text command is sent to the LLM along with the robot's capabilities
+3. The LLM generates a sequence of primitive actions
+4. This sequence is formatted as a list of strings that the robot can execute
+
+The LLM leverages its vast training data to understand that cleaning a room involves finding objects, determining how to move them, and where to place them appropriately.
+
+The cognitive planning process involves several key components:
+- **Scene Understanding**: Interpreting the current state of the environment
+- **Goal Specification**: Understanding what the human wants to achieve
+- **Action Selection**: Choosing appropriate actions to achieve the goal
+- **Action Sequencing**: Ordering actions in a logical sequence
+- **Constraint Handling**: Accounting for physical limitations and safety requirements
+
+## Advanced Prompting Techniques
+
+The effectiveness of cognitive planning depends heavily on how information is presented to the LLM. Effective prompting techniques for robotics include:
+
+- **Few-Shot Learning**: Providing examples of how to transform similar high-level commands into action sequences
+- **Chain-of-Thought Reasoning**: Asking the LLM to explain its reasoning before providing the action sequence
+- **Environment Context**: Including information about the current state of the environment
+- **Capability Context**: Informing the LLM about what the robot can and cannot do
+
+For example, a more detailed prompt might be: "Given a room with a red cup on the table and a trash bin against the wall, generate a sequence of actions for a robot with a gripper to clean the room. The robot should pick up the cup and dispose of it in the trash. The current position of the robot is at the center of the room." 
+
+## Integration with Perceptual Systems
+
+The cognitive planner doesn't work in isolation—it integrates with the robot's perceptual systems to create meaningful action sequences. Visual input from cameras helps the LLM understand what objects are present and where they are located.
+
+This integration is bidirectional: the cognitive planner generates action sequences based on perception, but the execution of these actions often leads to new perceptions that may require replanning. For instance, if the robot goes to pick up a "cup" but discovers it's actually a "pen," the cognitive planner may need to adjust the action sequence.
+
+## Sending to the ROS 2 Nervous System
+
+Once the LLM generates the action sequence, this list of strings is sent to the ROS 2 Nervous System (from Module 1) to execute. The ROS 2 system handles:
+
+- Navigation to the specified locations
+- Identifying objects in the environment
+- Controlling robot arms and grippers
+- Managing the overall execution of the task
+- Handling exceptions and error recovery
+- Integrating feedback from sensors to adjust actions
+
+This creates a complete pipeline from voice command to physical action. The cognitive planner might generate high-level symbolic actions like "Go to Trash" which then get translated into specific motor commands by lower-level controllers.
+
+## Safety and Error Handling
+
+The cognitive planner must also consider safety when generating action sequences. This includes ensuring that actions won't harm the robot, the environment, or nearby humans. The planner should also consider contingencies for when planned actions fail.
+
+Safety-aware cognitive planning might involve:
+- Checking if an action is safe before adding it to the sequence
+- Including error-handling actions in the sequence
+- Verifying that the robot has the necessary capabilities for each action
+- Including validation steps between action segments
+
+## Key Takeaway
+
+The cognitive planner uses LLMs to transform high-level human commands into specific sequences of robot actions. It acts as the bridge between human language and robot execution, enabling natural interaction with robots. The effectiveness of cognitive planning depends on appropriate prompting techniques and tight integration with the robot's perceptual and control systems.

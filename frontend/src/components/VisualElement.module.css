@@ -1,0 +1,54 @@
+.visualElement {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.visualImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.visualImage:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transform: scale(1.02);
+}
+
+.placeholder {
+  background-color: var(--ifm-color-emphasis-100);
+  border: 1px dashed var(--ifm-color-emphasis-400);
+  padding: 2rem;
+  border-radius: 4px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caption {
+  font-style: italic;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.zoomable {
+  cursor: zoom-in;
+}
+
+.zoomable:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .visualImage {
+    max-width: 100%;
+  }
+  
+  .placeholder {
+    padding: 1rem;
+    min-height: 150px;
+  }
+}

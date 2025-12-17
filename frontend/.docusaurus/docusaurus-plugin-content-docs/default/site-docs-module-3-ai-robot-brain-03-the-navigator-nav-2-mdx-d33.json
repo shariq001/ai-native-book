@@ -1,0 +1,24 @@
+{
+  "id": "Module 3 - AI Robot Brain/The-Navigator-Nav2",
+  "title": "The Navigator (Nav2): How Do I Get There?",
+  "description": "The Costmap: A Robot's Safety Grid",
+  "source": "@site/docs/Module 3 - AI Robot Brain/03-The-Navigator-Nav2.mdx",
+  "sourceDirName": "Module 3 - AI Robot Brain",
+  "slug": "/Module 3 - AI Robot Brain/The-Navigator-Nav2",
+  "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/The-Navigator-Nav2",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.2 Visual Localization (VSLAM)",
+    "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/Visual-GPS-VSLAM"
+  },
+  "next": {
+    "title": "3.4 Bipedal Control Dynamics",
+    "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/Walking-Not-Rolling"
+  }
+}

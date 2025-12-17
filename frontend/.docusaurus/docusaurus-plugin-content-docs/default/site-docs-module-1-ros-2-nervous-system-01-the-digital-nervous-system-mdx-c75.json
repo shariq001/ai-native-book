@@ -1,0 +1,20 @@
+{
+  "id": "Module 1 - ROS 2 Nervous System/The-Digital-Nervous-System",
+  "title": "The Digital Nervous System: Introduction to Middleware",
+  "description": "Why Your Brain Needs Nerves",
+  "source": "@site/docs/Module 1 - ROS 2 Nervous System/01-The-Digital-Nervous-System.mdx",
+  "sourceDirName": "Module 1 - ROS 2 Nervous System",
+  "slug": "/Module 1 - ROS 2 Nervous System/The-Digital-Nervous-System",
+  "permalink": "/ai-native-book/docs/Module 1 - ROS 2 Nervous System/The-Digital-Nervous-System",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "1.2 Communication Patterns",
+    "permalink": "/ai-native-book/docs/Module 1 - ROS 2 Nervous System/Signals-and-Reflexes"
+  }
+}

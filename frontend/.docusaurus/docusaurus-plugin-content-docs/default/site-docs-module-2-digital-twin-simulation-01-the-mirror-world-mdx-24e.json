@@ -1,0 +1,24 @@
+{
+  "id": "Module 2 - Digital Twin Simulation/The-Mirror-World",
+  "title": "The Mirror World: Digital Twins for Robot Training",
+  "description": "Would You Let a $50,000 Robot Learn to Walk on Concrete?",
+  "source": "@site/docs/Module 2 - Digital Twin Simulation/01-The-Mirror-World.mdx",
+  "sourceDirName": "Module 2 - Digital Twin Simulation",
+  "slug": "/Module 2 - Digital Twin Simulation/The-Mirror-World",
+  "permalink": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/The-Mirror-World",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.4 Robot Description (URDF)",
+    "permalink": "/ai-native-book/docs/Module 1 - ROS 2 Nervous System/Defining-the-Body-URDF"
+  },
+  "next": {
+    "title": "2.2 Physics Engines & Collision",
+    "permalink": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/Laws-of-the-Land"
+  }
+}

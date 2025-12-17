@@ -1,0 +1,46 @@
+.navigationContainer {
+  margin: 2rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.navButtonGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.navButton {
+  min-width: 120px;
+  text-align: center;
+}
+
+.progressIndicator {
+  font-weight: bold;
+  color: var(--ifm-color-emphasis-700);
+  padding: 0 1rem;
+}
+
+.disabledButton {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .navButtonGroup {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .navButton {
+    width: 100%;
+  }
+  
+  .progressIndicator {
+    order: -1; /* Put progress indicator first on mobile */
+  }
+}

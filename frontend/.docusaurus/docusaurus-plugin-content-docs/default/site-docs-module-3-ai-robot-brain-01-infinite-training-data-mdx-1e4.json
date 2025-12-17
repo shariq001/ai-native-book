@@ -1,0 +1,24 @@
+{
+  "id": "Module 3 - AI Robot Brain/Infinite-Training-Data",
+  "title": "Infinite Training Data: Synthetic Data Generation",
+  "description": "How do you teach a robot to recognize a rare screw?",
+  "source": "@site/docs/Module 3 - AI Robot Brain/01-Infinite-Training-Data.mdx",
+  "sourceDirName": "Module 3 - AI Robot Brain",
+  "slug": "/Module 3 - AI Robot Brain/Infinite-Training-Data",
+  "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/Infinite-Training-Data",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2.4 Sensor Simulation",
+    "permalink": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/Synthetic-Senses"
+  },
+  "next": {
+    "title": "3.2 Visual Localization (VSLAM)",
+    "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/Visual-GPS-VSLAM"
+  }
+}

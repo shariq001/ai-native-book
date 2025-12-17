@@ -1,0 +1,116 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/ai-native-book/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/ai-native-book/docs",
+          "mainDocId": "Module 1 - ROS 2 Nervous System/The-Digital-Nervous-System",
+          "docs": [
+            {
+              "id": "Module 1 - ROS 2 Nervous System/Defining-the-Body-URDF",
+              "path": "/ai-native-book/docs/Module 1 - ROS 2 Nervous System/Defining-the-Body-URDF",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 1 - ROS 2 Nervous System/Signals-and-Reflexes",
+              "path": "/ai-native-book/docs/Module 1 - ROS 2 Nervous System/Signals-and-Reflexes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 1 - ROS 2 Nervous System/The-Digital-Nervous-System",
+              "path": "/ai-native-book/docs/Module 1 - ROS 2 Nervous System/The-Digital-Nervous-System",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 1 - ROS 2 Nervous System/The-Python-Bridge",
+              "path": "/ai-native-book/docs/Module 1 - ROS 2 Nervous System/The-Python-Bridge",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 2 - Digital Twin Simulation/Laws-of-the-Land",
+              "path": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/Laws-of-the-Land",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 2 - Digital Twin Simulation/Synthetic-Senses",
+              "path": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/Synthetic-Senses",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 2 - Digital Twin Simulation/The-Human-Element",
+              "path": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/The-Human-Element",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 2 - Digital Twin Simulation/The-Mirror-World",
+              "path": "/ai-native-book/docs/Module 2 - Digital Twin Simulation/The-Mirror-World",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 3 - AI Robot Brain/Infinite-Training-Data",
+              "path": "/ai-native-book/docs/Module 3 - AI Robot Brain/Infinite-Training-Data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 3 - AI Robot Brain/The-Navigator-Nav2",
+              "path": "/ai-native-book/docs/Module 3 - AI Robot Brain/The-Navigator-Nav2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 3 - AI Robot Brain/Visual-GPS-VSLAM",
+              "path": "/ai-native-book/docs/Module 3 - AI Robot Brain/Visual-GPS-VSLAM",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 3 - AI Robot Brain/Walking-Not-Rolling",
+              "path": "/ai-native-book/docs/Module 3 - AI Robot Brain/Walking-Not-Rolling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 4 - VLA Capstone/Capstone-The-Autonomous-Loop",
+              "path": "/ai-native-book/docs/Module 4 - VLA Capstone/Capstone-The-Autonomous-Loop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 4 - VLA Capstone/maintenance-documentation",
+              "path": "/ai-native-book/docs/Module 4 - VLA Capstone/maintenance-documentation"
+            },
+            {
+              "id": "Module 4 - VLA Capstone/Module-Summary",
+              "path": "/ai-native-book/docs/Module 4 - VLA Capstone/Module-Summary"
+            },
+            {
+              "id": "Module 4 - VLA Capstone/The-Cognitive-Planner",
+              "path": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Cognitive-Planner",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 4 - VLA Capstone/The-Embodied-LLM",
+              "path": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Embodied-LLM",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Module 4 - VLA Capstone/The-Robot-Ear",
+              "path": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Robot-Ear",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/ai-native-book/docs/Module 1 - ROS 2 Nervous System/The-Digital-Nervous-System",
+                "label": "1.1 Introduction to Middleware"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

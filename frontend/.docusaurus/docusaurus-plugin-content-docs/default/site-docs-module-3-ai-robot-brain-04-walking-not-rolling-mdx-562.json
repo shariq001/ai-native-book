@@ -1,0 +1,24 @@
+{
+  "id": "Module 3 - AI Robot Brain/Walking-Not-Rolling",
+  "title": "Walking, Not Rolling: Bipedal Locomotion Challenges",
+  "description": "The Fundamental Difference: Constantly Falling and Catching Yourself",
+  "source": "@site/docs/Module 3 - AI Robot Brain/04-Walking-Not-Rolling.mdx",
+  "sourceDirName": "Module 3 - AI Robot Brain",
+  "slug": "/Module 3 - AI Robot Brain/Walking-Not-Rolling",
+  "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/Walking-Not-Rolling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "3.3 Path Planning (Nav2)",
+    "permalink": "/ai-native-book/docs/Module 3 - AI Robot Brain/The-Navigator-Nav2"
+  },
+  "next": {
+    "title": "4.1 VLA Model Architecture",
+    "permalink": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Embodied-LLM"
+  }
+}

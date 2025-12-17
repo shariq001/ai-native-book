@@ -1,0 +1,24 @@
+{
+  "id": "Module 1 - ROS 2 Nervous System/The-Python-Bridge",
+  "title": "The Python Bridge: Using rclpy",
+  "description": "Importing the Spine",
+  "source": "@site/docs/Module 1 - ROS 2 Nervous System/03-The-Python-Bridge.mdx",
+  "sourceDirName": "Module 1 - ROS 2 Nervous System",
+  "slug": "/Module 1 - ROS 2 Nervous System/The-Python-Bridge",
+  "permalink": "/ai-native-book/docs/Module 1 - ROS 2 Nervous System/The-Python-Bridge",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1.2 Communication Patterns",
+    "permalink": "/ai-native-book/docs/Module 1 - ROS 2 Nervous System/Signals-and-Reflexes"
+  },
+  "next": {
+    "title": "1.4 Robot Description (URDF)",
+    "permalink": "/ai-native-book/docs/Module 1 - ROS 2 Nervous System/Defining-the-Body-URDF"
+  }
+}

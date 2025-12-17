@@ -1,0 +1,24 @@
+{
+  "id": "Module 4 - VLA Capstone/The-Cognitive-Planner",
+  "title": "The Cognitive Planner: Using LLMs for Action Sequences",
+  "description": "The Challenge: From Command to Action",
+  "source": "@site/docs/Module 4 - VLA Capstone/03-The-Cognitive-Planner.mdx",
+  "sourceDirName": "Module 4 - VLA Capstone",
+  "slug": "/Module 4 - VLA Capstone/The-Cognitive-Planner",
+  "permalink": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Cognitive-Planner",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.2 Speech Processing Pipeline",
+    "permalink": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Robot-Ear"
+  },
+  "next": {
+    "title": "4.4 Capstone: System Integration",
+    "permalink": "/ai-native-book/docs/Module 4 - VLA Capstone/Capstone-The-Autonomous-Loop"
+  }
+}

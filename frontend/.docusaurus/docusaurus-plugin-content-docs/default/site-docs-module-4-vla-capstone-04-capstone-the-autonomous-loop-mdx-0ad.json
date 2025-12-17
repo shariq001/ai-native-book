@@ -1,0 +1,20 @@
+{
+  "id": "Module 4 - VLA Capstone/Capstone-The-Autonomous-Loop",
+  "title": "Capstone: The Autonomous Loop - Bringing It All Together",
+  "description": "The Complete Scenario: \"Bring Me the Red Apple\"",
+  "source": "@site/docs/Module 4 - VLA Capstone/04-Capstone-The-Autonomous-Loop.mdx",
+  "sourceDirName": "Module 4 - VLA Capstone",
+  "slug": "/Module 4 - VLA Capstone/Capstone-The-Autonomous-Loop",
+  "permalink": "/ai-native-book/docs/Module 4 - VLA Capstone/Capstone-The-Autonomous-Loop",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "4.3 LLM-Based Planning",
+    "permalink": "/ai-native-book/docs/Module 4 - VLA Capstone/The-Cognitive-Planner"
+  }
+}
